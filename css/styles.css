@@ -19,7 +19,6 @@ html {
     background-color: #01012b;
     margin: 0;
     padding: 0;
-    margin-top: -3em;
     margin-bottom: 8em;
     font-family: 'Exo', sans-serif;
     text-align: center;
@@ -43,9 +42,11 @@ html {
   .barcode {
     font-size: 18px;
     color: #d1f7ff;
-    text-shadow:
-      0 0 1px   #07eeff,
-      0 0 10px  #ff2a6d;
+    text-shadow: 
+      0 0 10px #ff2a6d,
+      0 0 20px  #ff2a6d,
+      0 0 40px  #ff2a6d,
+      0 0 70px  #ff2a6d;
     margin: 0;
     font-family: "Libre Barcode 39", serif;
     font-weight: 400;
@@ -104,7 +105,7 @@ html {
     width: 100%;
     text-align: center;
     padding: 5px;
-    padding-top: 4em;
+    padding-top: 2em;
     margin: 0 auto;
     background-color: #01012b; 
     position: fixed;
