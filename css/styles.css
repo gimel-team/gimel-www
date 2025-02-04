@@ -1,0 +1,171 @@
+html {
+  width: auto;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* BODY */
+   body {
+    background-color: #01012b;
+    margin: 0;
+    padding: 0;
+    margin-top: -3em;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* MAIN CONTENT ------------------------------------------ */
+  .main-content {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+}
+
+  .barcode {
+    font-size: 18px;
+    color: #d1f7ff;
+    text-shadow:
+      0 0 1px   #07eeff,
+      0 0 10px  #ff2a6d;
+    margin: 0;
+    font-family: "Libre Barcode 39", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  /* NEON HEADINGS */
+  .neon-text {
+    font-size: 48px;
+    color: #fefefe;
+    text-shadow: 
+      0 0 5px   #ff2a6d,
+      0 0 10px  #ff2a6d,
+      0 0 20px  #ff2a6d,
+      0 0 30px  #05d9e8,
+      0 0 40px  #05d9e8;
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* NEON PARAGRAPHS */
+  .neon-paragraph {
+    font-family: "Lexend Giga", serif;
+  font-optical-sizing: auto;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow:
+      0 0 5px  #ff6a99,
+      0 0 10px  #ffde7c;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  /* SPACING UTILITIES */
+
+  .space1 {
+    margin-bottom: 1em; 
+  }
+  .space5 {
+    margin-bottom: 5em; 
+  }
+
+  .space2 {
+    margin-bottom: 2em;
+  }
+  .wide-element {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  
+  /* FOOTER (Fixed at bottom) */
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    padding-top: 4em;
+    margin: 0 auto;
+    background-color: #01012b; 
+  }
+  
+  /* HEADER (Fixed at top, Horizontal Menu) */
+  .neon-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    z-index: 9999; 
+    background-color: #01012b;
+    text-align: center;
+  }
+  
+  /* Horizontal navigation list */
+  .neon-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Spacing between menu items */
+  .neon-header nav li {
+    margin: 0 10px;
+  }
+  
+  /* Menu links (no neon glow) */
+  .neon-header nav a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 
+      0 0 10px #ff2a6d,
+      0 0 20px  #3f2aff,
+      0 0 40px  #9f2aff,
+      0 0 70px  #ff2aed;
+  }
+  
+/* Hover effect for navigation links */
+.neon-header nav a:hover {
+    color: #f6f6f6;
+    text-shadow: 
+      0 0 10px #ff2a6d,
+      0 0 20px  #ff2a6d,
+      0 0 40px  #ff2a6d,
+      0 0 70px  #ff2a6d;
+}
+
+#gimelImage {
+  transition: transform 1s ease;
+}
+
+.rotate-on-click {
+  transform: rotate(360deg);
+}
+
+
+
+
+  

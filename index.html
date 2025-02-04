@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" href="./images/gimel.webp" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend+Giga:wght@100..900&family=Libre+Barcode+39&display=swap" rel="stylesheet">
+
+  <title>Gimel</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="neon-header">
+    <h1 class="neon-text">G I M E L</h1>
+  </header>
+  <div class="main-content">
+    <div class="space5"></div>
+    <div class="barcode" style="width: 100%;">
+      Secret passcode 2137
+  </div>
+    <div class="space2"></div>
+    <div class="space1">
+        <p class="neon-paragraph wide-element">The Polish CTF team.</p>
+        <p ><a class="neon-paragraph wide-element" href="https://ctftime.org/team/357179">CTFTime</a>
+        <a class="neon-paragraph wide-element" href="https://github.com/gimel-team">Github</a>
+        </p>
+        
+    </div>
+    <img 
+      src="./images/gimel.webp"
+      alt="gimjp"
+      width="300"
+      height="300"
+      style="border-radius: 50%;"
+      id="gimelImage"
+    />
+
+    <div class="space5"></div>
+
+        <p class="neon-paragraph">It is fueled by Gimel-crafted beer.</p>
+        <p class="neon-paragraph">The steady diet of kremówka fosters our hacking performance.</p>
+        <p class="neon-paragraph">We are always up to a good LAN party.</p>
+        <p class="neon-paragraph">We believe that there is no harm in a good LLM prompt.</p>
+        
+  </div>
+
+  <div class="space"></div>
+  <footer>
+    <p class="neon-paragraph">
+      Contact:  
+      <a class="neon-paragraph" href="mailto:example@com.pl">gimel@gimel.sh</a>
+    </p>
+    
+  </footer>
+</body>
+</html>
+
+<script>
+  const gimelImage = document.getElementById("gimelImage");
+  gimelImage.addEventListener("click", () => {
+    gimelImage.classList.toggle("rotate-on-click");
+  });
+</script>
