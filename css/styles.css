@@ -106,6 +106,7 @@ html {
     padding-top: 4em;
     margin: 0 auto;
     background-color: #01012b; 
+    position: fixed;
   }
   
   /* HEADER (Fixed at top, Horizontal Menu) */
